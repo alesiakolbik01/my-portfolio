@@ -12349,6 +12349,20 @@ section {
   }
 }
 
+#about .wrapper-skills-box {
+  align-items: center;
+  margin: 15px 0;
+  display: flex;
+}
+
+#about .wrapper-skills-box a:not(:last-child) {
+  margin-right: 20px;
+}
+
+#about .wrapper-skills-box img {
+  width: 70px;
+}
+
 #contact {
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   color: #1a172e;
@@ -12527,7 +12541,7 @@ section {
 }
 
 #projects .project-wrapper__image {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 

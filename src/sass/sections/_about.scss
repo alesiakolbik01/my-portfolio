@@ -76,4 +76,19 @@
       }
     }
   }
+
+  .wrapper-skills-box {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+
+    a:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    img {
+      width: 70px;
+    }
+  }
+
 }
